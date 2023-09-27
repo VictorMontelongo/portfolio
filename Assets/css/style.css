@@ -1,0 +1,51 @@
+/* Color sorced from http: //khroma.co/generator/ */
+:root {
+  --outer-space: rgb(51, 57, 63);
+  --muted-dark-blue: rgb(36, 74, 100);
+  --gin: rgb(224, 234, 228);
+  --pale-midtone-blue: rgb(134, 148, 184);
+}
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-image: linear-gradient(rgba(36, 74, 100, 0.6) 10%,
+      /*Opacity at 60%*/
+      rgba(19, 47, 138, 0.829) 90%);
+}
+
+header {
+  background-color: var(--muted-dark-blue);
+  border-bottom: 10px solid var(--pale-midtone-blue);
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+header h1 {
+  text-align: left;
+
+}
+
+.links {
+  display: flex;
+  /* text-align: right; */
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  font-size: 20px;
+  list-style: none;
+}
+
+a {
+  color: var(--gin);
+}
