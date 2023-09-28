@@ -17,6 +17,7 @@ body {
 
 header {
   background-color: var(--muted-dark-blue);
+  background-size: cover;
   border-bottom: 10px solid var(--pale-midtone-blue);
   padding: 10px;
   display: block;
@@ -36,6 +37,11 @@ header h1 {
 
 }
 
+h2 {
+  color: var(--gin);
+  text-decoration: underline;
+}
+
 .links {
   display: flex;
   /* text-align: right; */
@@ -48,4 +54,31 @@ header h1 {
 
 a {
   color: var(--gin);
+}
+
+main section p {
+  color: var(--gin);
+}
+
+.work {
+
+  >h3 {
+    position: relative;
+    border-style: solid;
+    background: var(--outer-space);
+    color: var(--gin);
+    display: inline-block;
+    padding: 4px;
+    top: 20px;
+  }
+
+  >li {
+    list-style: none;
+  }
+
+  >img src {
+    float: left;
+    max-width: 10%;
+    max-height: 10%;
+  }
 }
