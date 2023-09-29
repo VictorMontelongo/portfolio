@@ -11,13 +11,14 @@
 <body>
   <header>
     <h1>Victor Montelongo</h1>
-    <img src="./Images/Frank.jpg" alt="avatar" class="avatar">
+    <!-- all images grabbed from Upscale.com-->
+    <img src="./Images/avatar.jpg" alt="avatar" class="avatar">
     <nav>
       <ul class="links">
         <!-- About me and Work should send to sections on page. Contact and Resume should lead to other pages-->
-        <li><a href="#About-Me" alt="About-Me">About Me</a></li>
-        <li><a href="#Work" alt="Work">Work</a></li>
-        <li><a href="https://github.com/VictorMontelongo" alt="Contact me">Contact Me</a></li>
+        <li><a href="#about-me" alt="About-Me">About Me</a></li>
+        <li><a href="#work" alt="Work">Work</a></li>
+        <li><a href="#contact-me" alt="Contact me">Contact Me</a></li>
         <!-- should lead to a Resume Google doc -->
         <li><a href="https://docs.google.com/document/d/1s2suQhthnIl6tTfaph0vbKOfzyccKMSW9kZFIRcTwOs/edit"
             alt="resume">Resume</a>
@@ -26,7 +27,7 @@
     </nav>
   </header>
   <main>
-    <section id="About-Me" class="About-Me">
+    <section id="about-me" class="About-Me">
       <h2>About Me</h2>
       <p>My name is Victor Montelongo. I have started my journey in coding on September 18th. Prior to this I studying
         early modern history and worked in the finance world. Starting on the retail side of banking, I worked my way
@@ -38,13 +39,30 @@
     </section>
     <section id="work" class="work">
       <h2>Work Done</h2>
-      <p>Brief samples of previous completed projects.</p>
-      <h3>Calculator (CSS/JavaScript)</h3>
-      <!-- img grabbed @ unsplash.com -->
-      <li><a href="https://www.calculator.net/"> <img src="./Images/Calculator.jpg" alt="calculator"></a></li>
+      <p>Samples of previous completed projects.</p>
+      <ul class="projects">
+        <h3>Calculator (CSS/JavaScript)</h3>
+        <li><a href="https://www.calculator.net/"> <img src="./Images/calculator.jpg" alt="calculator"></a></li>
+        <h3>Surf Report</h3>
+        <!-- link just goes to Google -->
+        <li><a href="https://www.google.com/"><img src="./Images/surf.jpg" alt="surf-report"></a></li>
+        <h3>LED Wall</h3>
+        <!-- link to wallpaper site -->
+        <li><a href="https://wallpapers.com/led"><img src="./Images/led.jpg" alt="led wallpaper"></a></li>
+        <h3>Running App</h3>
+        <!-- Link to Strava -->
+        <li><a href="https://www.strava.com/"><img src="./Images/run.jpg" alt="run"></a></li>
+      </ul>
     </section>
-
-
+    <section id="contact-me" class="contact">
+      <h2>Contact Me</h2>
+      <ul>
+        <li><a></a>555-555-555</li>
+        <li><a href="https://github.com/" alt="github"></a>GitHub</li>
+        <li><a href="https://twitter.com/" alt="twitter"></a>Twitter</li>
+        <li><a href="email@email.com"></a>Email</li>
+      </ul>
+    </section>
   </main>
 </body>
 
